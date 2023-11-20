@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: "Agustina Regular";
   font-style: normal;
@@ -44,17 +46,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-html,
-body {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,
