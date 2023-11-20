@@ -11,7 +11,7 @@ const seo = {
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Nikhil PSPK Portfolio",
+    title: "Nikhil vinnakota Portfolio",
     type: "website",
     url: "http://nikhilhathidara.com/",
   },
@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Nikhil PSPK",
+  title: "Nikhil vinnakota",
   logo_name: "nikhilHathidara",
   nickname: "layman_brother",
   subTitle:
