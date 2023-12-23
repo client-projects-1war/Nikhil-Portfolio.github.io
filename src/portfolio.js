@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -21,13 +21,13 @@ const seo = {
 const greeting = {
   title: "Nikhil vinnakota",
   logo_name: "nikhilHathidara",
-  nickname: "layman_brother",
+  nickname: "Motion Graphic Designer/ Video Editor",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
   portfolio_repository: "https://github.com/nikhil1919/masterPortfolio",
-  githubProfile: "https://github.com/nikhil1919",
+  //githubProfile: "https://github.com/nikhil1919",
 };
 
 const socialMediaLinks = [
@@ -41,14 +41,8 @@ const socialMediaLinks = [
   // instagram: "https://www.instagram.com/layman_brother/"
 
   {
-    name: "Github",
-    link: "https://github.com/nikhil1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/nikhil1919/",
+    link: "https://www.linkedin.com/in/nikhil-vinnakota-29a693259/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -60,7 +54,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:nikhilhathidara98@gmail.com",
+    link: "mailto:Nikhilvfx123@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -87,12 +81,11 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Motion Graphic Designer",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Creating animated graphics and videos using computer software such as Adobe After Effects or Adobe Premier Pro",
+        "⚡ Using computer software to create animations and special effects for commercials, movies, or other visual media productions",
       ],
       softwareSkills: [
         {
@@ -534,37 +527,26 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
+          title: "Motion Graphic Designer",
+          company: "Venlax Group",
           company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
+          logo_path: "venlax-logo.jpg",
+          duration: "May 2023 - Present",
           location: "Hyderabad, Telangana",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Creating animated graphics and videos using computer software such as Adobe After Effects or Adobe Premier Pro. Using computer software to create animations and special effects for commercials, movies, or other visual media productions",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
+          title: "Video Editor",
+          company: "R Square Studios",
           company_url: "https://www.linkedin.com/company/muffito-inc/about/",
           logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          duration: "June 2020 – April 2023",
+          location: "Hyderabad, Telangana",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Reviewed raw material to determine which slots to be used in the final edit. Trim and arrange footage to enhance the video’s overall quality and flow. Apply graphics, music, sound effects, dialogue and other special effects at appropriate parts in the visual   ",
           color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
         },
       ],
     },
@@ -735,7 +717,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_nikhil.png",
+    profile_image_path: "animated_ashutosh.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
